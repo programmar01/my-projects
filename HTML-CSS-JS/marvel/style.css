@@ -1,0 +1,62 @@
+body{
+    background: url(https://image.cnbcfm.com/api/v1/image/105828186-1554212544565avengers-endgame-poster-og-social-crop.jpg?v=1555618903&w=1920&h=1080) no-repeat;
+    background-size: cover;
+}
+
+.box{
+    width: 350px;
+    background: rgba(255, 0, 0, 0.5);
+    padding: 40px;
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+
+}
+
+.b img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.b{
+    margin: 170px 30px 50px 50px;
+}
+
+
+nav {
+    background: rgba(255, 0, 0, 1);
+    height: 50px;
+    display: flex;
+
+}
+
+#menu {
+    display: flex;
+    list-style-type: none;
+    font-size: 30px;
+    margin: auto;
+    margin-left: 70%;
+}
+#logo {
+    height: 46px;
+    margin: 2px 0px 0px 2px;
+}
+
+#menu li {
+    margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    color: white;
+    background: rgba(180, 0, 255, 1);
+    height: 100px;
+    width: 100%;
+    margin-top: 100px;
+
+}

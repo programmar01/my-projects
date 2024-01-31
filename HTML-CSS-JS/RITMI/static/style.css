@@ -1,0 +1,71 @@
+pipbody {
+    background-image: linear-gradient(rgb(223, 0, 0), rgb(200, 120, 255));
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.navbar {
+    background : red;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+.welcome h1 {
+
+    font-size: 100px;
+    text-align: center;
+    margin: 5% auto;
+    color: white;
+    font-family: Gabarito;
+}
+.card {
+    display: inline-block;
+    text-align: center;
+    width: 28%;
+    margin-left: 4%;
+    box-shadow: 2px 5px red;
+}
+.dance {
+
+    padding: 5% 0%;
+    margin-top: 100px;
+}
+#logo {
+    height: 46px;
+    margin: 2px 0px 0px 2px;
+    border-radius: 50%;
+    margin: auto 2%;
+}
+.footer{
+    min-height: 200px;
+    flex-grow: 1;
+    background-color: rgb(40, 40, 40);
+}
+
+#contact-info{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+#registration {
+    display: flex;
+    margin: 0px auto;
+    margin-bottom: 100px;
+    padding: 50px 100px;
+    background: white;
+    text-align: center;
+}
+@media (max-width: 600px){
+    .card {
+        display: block;
+        width: 92%;
+        margin-bottom: 50px;
+    }
+    .welcome h1 {
+        font-size: 50px;
+        margin-top: 25%;
+    }
+}

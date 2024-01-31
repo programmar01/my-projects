@@ -1,0 +1,5 @@
+home_page_data = [
+    ("https://images.pexels.com/photos/1557652/pexels-photo-1557652.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","ჯუთა","text1"),
+    ("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguUWsS9FJHWfimpLSwVcom0Az1awNCWvepLKhNpLYy8j0U_fvP2dsjIwTL7X-NWSBtLkOuztpJIAEaVgaFkLbt0udOSU5W4QVyOQIEVTLio6mQsS1X_jaRrL1s3j6027BRy-mako-rJAapAel_0uBCZBBAadigpCX8BWpUqOkj1p81ot5zsC3YwvinDFaM/s320/29317_411380897880_205492947880_4295746_2571262_n.jpg","ზეკარი","text2"),
+    ("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguUWsS9FJHWfimpLSwVcom0Az1awNCWvepLKhNpLYy8j0U_fvP2dsjIwTL7X-NWSBtLkOuztpJIAEaVgaFkLbt0udOSU5W4QVyOQIEVTLio6mQsS1X_jaRrL1s3j6027BRy-mako-rJAapAel_0uBCZBBAadigpCX8BWpUqOkj1p81ot5zsC3YwvinDFaM/s320/29317_411380897880_205492947880_4295746_2571262_n.jpg","ხორუმი","text3")
+]

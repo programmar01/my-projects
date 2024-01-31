@@ -1,0 +1,137 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% if False in add %}
+        <div class="alert alert-warning alert-dismissible" role="alert">
+            <strong>Alert!</strong> Some fields are empty, or entered information is too long
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+
+            </button>
+
+        </div>
+
+    {% endif %}
+
+
+
+
+    <div class="welcome">
+        <h1>REGISTER HERE
+            <br>  ↓
+        </h1>
+    </div>
+
+    <form method="post" action="#" id="registration">
+        <table>
+
+            <tr>
+                <td><h4><b>შეიყვანეთ ბავშვის სახელი</b></h4></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="answer0">
+                </td>
+            </tr>
+
+            <tr>
+                <td><h4><b>შეიყვანეთ ბავშვის გვარი</b></h4></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="answer1">
+                </td>
+            </tr>
+
+            <tr>
+                <td><h4><b>შეიყვანეთ კლასი</b></h4></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="answer2">
+                </td>
+            </tr>
+
+            <tr>
+                <td><h4><b>შეიყვანეთ ბავშვის პირადი ნომერი</b></h4></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="answer3">
+                </td>
+            </tr>
+
+            <tr>
+                <td><h4><b>შეიყვანეთ მშობლის პირადი ნომერი</b></h4></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="answer4">
+                </td>
+            </tr>
+
+            <tr>
+                <td><h4><b>შეიყვანეთ მშობლის სახელი</b></h4></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="answer5">
+                </td>
+            </tr>
+
+            <tr>
+                <td><h4><b>შეიყვანეთ მშობლის გვარი</b></h4></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="answer6">
+                </td>
+            </tr>
+
+            <tr>
+                <td><h4><b>შეიყვანეთ მშობლის ტელეფონის ნომერი</b></h4></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="answer7">
+                </td>
+            </tr>
+
+            <tr class="sub">
+                <td>
+                    <input id="submit" type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+
+
+
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}
