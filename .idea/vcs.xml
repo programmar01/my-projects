@@ -4,8 +4,8 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/FLASK/geotour" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/HTML-CSS-JS/digitalclock" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/PYTHON/fish eat fish" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/PYTHON/street-fighters" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/PYTHON/supermario" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/fish eat fish" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/street-fighters" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/supermario" vcs="Git" />
   </component>
 </project>
