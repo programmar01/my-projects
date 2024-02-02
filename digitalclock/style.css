@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url("https://blog.depositphotos.com/wp-content/uploads/2017/07/Soothing-nature-backgrounds-2.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.clock {
+    display: flex;
+}
+
+.clock div {
+    margin: 7px;
+    position: relative;
+}
+
+.clock span{
+    width: 200px;
+    height: 160px;
+    background: red;
+    display: flex;
+    opacity: 0.8;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+
+}
+
+.clock .text{
+    height: 70px;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background: #8B0000;
+    opacity: 0.9;
+}
+
+.clock #ampm {
+    bottom: 0;
+    position: absolute;
+    width: 120px;
+    height: 70px;
+    background: yellow;
+}
