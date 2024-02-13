@@ -95,7 +95,7 @@ class Enemy(sprite.Sprite):
         x_range1 = random.randint(-200, int(width/20))
         x_range2 = random.randint(int(width + width/20), width + 200)
         y_range = random.randint(50, int(height - 50))
-        self.size_w = random.randint(20, 100)
+        self.size_w = random.randint(20, 300)
         self.score = self.size_w
         self.size_h = int(self.size_w)
         self.image = transform.scale(self.image, (self.size_w, self.size_h))

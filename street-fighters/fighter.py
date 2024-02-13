@@ -52,6 +52,9 @@ class Fighter():
                 if key[pygame.K_a]:
                     dx = -speed
                     self.run = True
+                if key[pygame.K_d]:
+                    dx = +speed
+                    self.run = True
                 if key[pygame.K_w] and self.jump == False:
                     self.jump = True
                     self.vel_y = -30

@@ -1,0 +1,14 @@
+main{
+    display: flex;
+    text-align: right;
+    align-items: center;
+}
+
+
+
+div{
+
+    height: 500px;
+    width: 1000px;
+    background: red;
+}
