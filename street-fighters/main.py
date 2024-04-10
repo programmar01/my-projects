@@ -9,9 +9,8 @@ pygame.init()
 screen_width = 1000
 screen_height = 600
 
-
 #ხმის ეფექტები
-sword_sound = pygame.mixer.Sound("images/sword.wav")
+sword_sound = pygame.mixer.Sound("./images/sword.wav")
 sword_sound.set_volume(0.5)
 magic_sound = pygame.mixer.Sound("images/magic.wav")
 magic_sound.set_volume(1)
